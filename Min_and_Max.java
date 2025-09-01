@@ -18,18 +18,18 @@ public class Min_and_Max {
 		    i=1;
 		}
 		    
-		for(i=i;i<arr.length;i=i+2) {
-			if(arr[i]>arr[i+1]) {
+		while(i<arr.length) {
+		    if(arr[i]>arr[i+1]) {
 				 if(arr[i]>max) max=arr[i];
 				 if(arr[i+1]<min)min=arr[i+1];
 			}else {
 				if(arr[i+1]>max) max=arr[i+1];
 				if(arr[i]<min) min=arr[i];
 			}
-		  
+		    i+=2;
 			
 		}
-		System.out.println("max:"+max+"min:"+min);
+		System.out.println("max :"+max+"min :"+min);
 		
 		}
 }
