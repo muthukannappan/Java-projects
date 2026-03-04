@@ -8,5 +8,6 @@ public class Max_array {
 			 }
 		 }
 		 System.out.println(max);
+		 System.out.println("Hello Muthu I am Ramadoss");
     }
 }
